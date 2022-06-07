@@ -20,5 +20,11 @@ list represents a rule with the following fields:
 
 OUTPUT
 The program should extract text from files under the provided path and to classify it into one or more domains. The text is
-classified into some "domain"
+classified into some "domain" if it contains one of coresponding indicators.
 For instance, given the classification rules above and the input file:
+
+My medical insurance is billed from the bank account number 84NK 4CcOun7.
+
+The expected output would be:
+financial
+healthcare
